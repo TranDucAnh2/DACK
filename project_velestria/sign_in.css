@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.menu {
+    width: 100%;
+    height: 65px    ;
+    background-color: rgb(244, 220, 224);
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    z-index: 100;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 75px;
+    height: auto;
+    margin-top: -10px;
+}
+
+a {
+    text-decoration: none;
+    color: Black;
+}
+
+.menu_text {
+    font-family: "Poppins", sans-serif;
+    margin-top: 12px;
+    transition: 0.3s ease-in;
+    color: blanchedalmond;
+    font-size: 21px;
+    margin-left: 15px;
+}
+
+.menu_text:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.09);
+}
+
+.sign_in {
+    justify-content: right;
+    margin-left: 1000px;
+    margin-top: 15px;
+    height: 30px;
+    width: 70px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+    background-color: rgb(247, 205, 219);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.sign_in:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+    background-color: rgb(161, 143, 149);
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(244, 220, 224);
+    display: flex;
+}
+
+.footer_about {
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.footer_about_title {
+    font-family: "Poppins", sans-serif;
+    color:#000;
+}
+
+.footer_about_desc {
+    width: 350px;
+    margin-top: 35px;
+}
+
+.border {
+    margin-top: 15px;
+    width: 5px;
+    height: 305px;
+    background-color: rgb(203, 124, 124);
+}
+
+.footer_social {
+    margin-top: 55px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.footer_social_title {
+    font-family: "Poppins", sans-serif;
+    color:#000;
+}
+
+.footer_social_img {
+    width: 50px;
+    height: auto;
+}
+
+.footer_social_desc {
+    font-family: "Poppins", sans-serif;
+    font-weight: thin;
+}
+
+.footer_newsletter {
+    margin-left: 30px;
+}
+
+.footer_newsletter_title {
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+}
+
+.footer_newsletter_title1 {
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    margin-left: -0.1px;
+}
+
+.footer_newsletter_desc {
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+    font-weight: thin;
+    margin-bottom: 15px ;
+}
+
+.footer_newsletter_input {
+    width: 500px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.footer_newsletter_input:hover {
+    background-color: rgb(210, 192, 194);
+    transition: 0.5s ease-in-out;
+}
+
+.footer_newsletter_checkbox {
+    margin-top: 10px;
+    height: 50px;
+    width: 20px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: none;
+    border: #000 solid;
+}
+
+.footer_newsletter_checkbox1 {
+    margin-top: 21px;
+    margin-left: 8px;
+}
+
+.footer_newsletter_stuff {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer_newsletter_button {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    background-color: palevioletred;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.footer_newsletter_button:hover {
+    transition: 0.4s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 5px 2.5px 10px 10px rgb(163, 118, 126);
+}
+
+.copyright {
+    width: 100%;
+    height: auto;
+    background-color: rgb(244, 220, 224);
+}
+
+.border1 {
+    margin: auto;
+    width: 1000px;
+    height: 3px;
+    background-color: rgb(203, 124, 124);
+    position: relative;
+}
+
+.footer_copyright_title {
+    text-align: center;
+    font-size: 15px;
+}
+
+.sign_in_title1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.sign_in_desc {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+}
+
+.sign_in_stuff_title {
+    margin-top: -350px;
+    font-size: 55px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    position: relative;
+}
+
+
+.sign_in_stuff_desc {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+}
+
+.sign_in_stuff_logo {
+    position:absolute;
+    margin: auto;
+    width: 200px;
+    height: auto;
+    justify-content: center;
+}
+
+.sign_in_parent {
+    display: flex;
+    justify-content: center;
+}
+
+.sign_in_img {
+    width: 340px;
+    height: 450px;
+    justify-content: center;
+    filter: brightness(0.2);
+}
+
+.sign_in_box {
+    width: 340px;
+    height: 450px;
+    background-color: rgb(211, 199, 236);
+    margin-bottom: 15px;
+    
+}
+
+.sign_in_title {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.sign_in_box_title {
+    font-family: "Poppins", sans-serif;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.sign_in_input {
+    width: 290px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    margin-left: 20px;
+    border: #000;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+
+.sign_in_input:hover {
+    transition: 0.4s ease-in-out;
+    background-color: rgb(207, 188, 252);
+}
+
+.confirmation {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-top: 25px;
+    font-family: "Poppins", sans-serif;
+    width: 175px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}   
+
+.confirmation:hover {
+    transition: 0.4s ease-in-out;
+    background-color: rgb(207, 188, 252);
+    box-shadow: 3.5px 2.5px 10px 10px rgb(218, 140, 252);
+}
+
+.new {
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Poppins", sans-serif;
+}
+
+.new_link {
+    transition: 0.4s ease-in-out;
+    color: rgb(42, 86, 59);
+}
+
+.new_link:hover {
+    transition: 0.2s ease-in-out;
+    border-bottom: rgb(135, 67, 231) solid;
+}
+
+.splide {
+    width: 100%;
+    max-height: 300px;
+}
